@@ -1,21 +1,16 @@
 function Testimonials() {
   return (
     <section>
-      <h2>Loved by Learners and Educators</h2>
+      <h2>Testimonials</h2>
 
       <div>
-        <p>"AI tutor felt like a personal coach."</p>
-        <p>- Priya Anand</p>
+        <h4>Rahul Sharma</h4>
+        <p>"Edulenza helped me learn faster."</p>
       </div>
 
       <div>
-        <p>"Completion rates jumped dramatically."</p>
-        <p>- Marcus Bell</p>
-      </div>
-
-      <div>
-        <p>"Landed my first design role."</p>
-        <p>- Sofia Reyes</p>
+        <h4>Priya Verma</h4>
+        <p>"The AI recommendations are amazing."</p>
       </div>
     </section>
   );

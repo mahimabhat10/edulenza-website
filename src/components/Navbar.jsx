@@ -1,21 +1,21 @@
-import "../styles/navbar.css";
-
 function Navbar() {
   return (
-    <nav className="navbar">
+    <nav style={{
+      display: "flex",
+      justifyContent: "space-between",
+      padding: "20px 10%",
+      background: "white"
+    }}>
       <h2>Edulenza</h2>
 
-      <ul className="nav-links">
-        <li>Platform</li>
-        <li>Courses</li>
-        <li>For Schools</li>
-        <li>Pricing</li>
-        <li>About</li>
-      </ul>
-
-      <div className="auth-buttons">
-        <button>Sign In</button>
-        <button>Get Started</button>
+      <div style={{
+        display: "flex",
+        gap: "20px"
+      }}>
+        <span>Courses</span>
+        <span>Schools</span>
+        <span>Pricing</span>
+        <span>About</span>
       </div>
     </nav>
   );
